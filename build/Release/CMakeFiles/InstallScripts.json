@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake_install.cmake",
+		"C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

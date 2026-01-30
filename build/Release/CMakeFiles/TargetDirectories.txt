@@ -1,0 +1,6 @@
+C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/CMakeFiles/G474_motor_firmware.dir
+C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/CMakeFiles/edit_cache.dir
+C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/CMakeFiles/rebuild_cache.dir
+C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
