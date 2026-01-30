@@ -57,11 +57,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define HRTIM_INPUT_CLOCK 170000000
-#define TIMD_PWM_FREQ 100000
+#define TIMD_PWM_FREQ 54400
 #define TIMD_DUTY_CYCLE 0.25
-#define MASTER_PWM_FREQ 100001
+#define HRTIM_INPUT_CLOCK 170000000
 #define MASTER_DUTY_CYCLE 0.5
+#define MASTER_PWM_FREQ 54400
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
 #define B1_EXTI_IRQn EXTI15_10_IRQn

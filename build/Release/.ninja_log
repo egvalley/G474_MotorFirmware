@@ -1,49 +1,17 @@
 # ninja log v7
-26	127	7914855102668472	CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj	b081b6245a13071c
-7	222	7914855102481184	CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj	891eacb81bfa1a8d
-4	95	7914856495459172	CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj	c08a2213473f65b9
-16	248	7914855102567399	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj	6dd750236930dd9
-13	259	7914855102537160	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj	9a2299e26e16d295
-19	266	7914855102602696	CMakeFiles/G474_motor_firmware.dir/Src/sysmem.c.obj	1859415095d795cf
-30	273	7914855102704408	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32g4xx.c.obj	3764a59d1c6ef60e
-60	323	7914855103012014	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj	65aa52e28bb26940
-80	343	7914855103203291	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj	4be772c704eedfce
-51	344	7914855102923082	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj	ed0bbf587e624c81
-38	345	7914855102789718	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj	3e99c06f10950390
-86	354	7914855103265148	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj	db81a791a595672b
-70	359	7914855103107191	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj	d2c2c25087c02b46
-65	366	7914855103054879	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj	4d6f6252173517c1
-97	379	7914855103380565	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj	64a6174b3fc0e6a4
-75	394	7914855103163155	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj	74e2d9b18dcc653b
-42	405	7914855102820138	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj	9be8ac9fa292c3ac
-55	406	7914855102965674	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj	3d19ad445fb7281
-92	422	7914855103330360	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj	67f9bfc2d655882f
-46	423	7914855102876076	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj	fbf76a8cffcb689e
-23	493	7914855102632899	CMakeFiles/G474_motor_firmware.dir/Src/syscalls.c.obj	c9fcb49bbe399630
-34	792	7914855102749555	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj	bbdae206fab8f11b
-20	121	7914856256475008	CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj	e946c2368700da81
-95	201	7914856496370693	G474_motor_firmware.elf	ce4653ac34fee770
-3	228	7914862476269386	build.ninja	4078a9a43ad28f26
-3	228	7914862476269386	C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake_install.cmake	4078a9a43ad28f26
-3	228	7914862476269386	C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/cmake_install.cmake	4078a9a43ad28f26
 42	128	7914862477303934	CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj	705287d55af01e45
-60	178	7914862477470681	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj	91ee1f2fe69a791a
+15	150	7914868041375283	CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj	7e56a9836310e342
+12	151	7914868041355147	CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj	58342d9536204b25
+29	171	7914868041516850	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj	bc9724bed78aad90
+26	170	7914868041496672	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj	35463897a0f44149
 35	216	7914862477229240	CMakeFiles/G474_motor_firmware.dir/Src/sysmem.c.obj	a977316cbddd0f5e
-16	252	7914862477045918	CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj	7e56a9836310e342
-22	257	7914862477095231	CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj	2d6938960acc32f4
-13	265	7914862477013948	CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj	58342d9536204b25
-19	269	7914862477071140	CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj	a8143da38767d1b0
-28	283	7914862477159004	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj	35463897a0f44149
-32	283	7914862477193233	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj	bc9724bed78aad90
 46	312	7914862477340938	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32g4xx.c.obj	c0f89f3c211a4f16
-25	314	7914862477125658	CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj	1fc226eb25c293f1
-39	354	7914862477271154	CMakeFiles/G474_motor_firmware.dir/Src/syscalls.c.obj	ae5aef4f6d4f846c
 86	354	7914862477740292	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj	dd500853de812e0f
-64	370	7914862477520933	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj	c7f75695b9ce149c
 106	379	7914862477933401	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj	c0ed2d9780ed82d8
 77	380	7914862477646886	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj	3196744027734a1a
-96	388	7914862477844446	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj	c4dd4dde41117dd3
+64	370	7914862477520933	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj	c7f75695b9ce149c
 111	388	7914862477993583	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj	59bcbca9e8773b88
+96	388	7914862477844446	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj	c4dd4dde41117dd3
 91	389	7914862477787272	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj	9e0d0900040bc635
 129	412	7914862478172109	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj	a7d47db6e7e64c68
 101	414	7914862477888672	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj	d7d8597364cca962
@@ -51,7 +19,26 @@
 82	425	7914862477691507	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj	691755c1ee1a542
 116	439	7914862478033692	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj	7138b74302207d2e
 73	446	7914862477612160	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj	13397883f2f6b21a
+39	354	7914862477271154	CMakeFiles/G474_motor_firmware.dir/Src/syscalls.c.obj	ae5aef4f6d4f846c
+178	856	7914862478661241	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj	3d94d16b346903ce
+23	180	7914868041461076	CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj	1fc226eb25c293f1
+180	271	7914868043030754	G474_motor_firmware.elf	8588bdeccb03d93b
+2	208	7914869845186792	build.ninja	4078a9a43ad28f26
+2	208	7914869845112227	C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake_install.cmake	4078a9a43ad28f26
+2	208	7914869845133619	C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/cmake_install.cmake	4078a9a43ad28f26
+60	178	7914862477470681	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c.obj	91ee1f2fe69a791a
+20	166	7914868041425927	CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj	2d6938960acc32f4
+18	180	7914868041411077	CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj	a8143da38767d1b0
 56	486	7914862477438720	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c.obj	688b5ed084e9aeef
 52	532	7914862477392602	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c.obj	5e2f9697b42968f5
-178	856	7914862478661241	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj	3d94d16b346903ce
-856	947	7914862485443336	G474_motor_firmware.elf	8588bdeccb03d93b
+13	226	7914869845186792	build.ninja	4078a9a43ad28f26
+13	226	7914869845186792	C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake_install.cmake	4078a9a43ad28f26
+13	226	7914869845186792	C:/Users/SUN/Desktop/temp/2026.01.23 tether/G474VET6_tether/G474_motor_firmware/build/Release/cmake/stm32cubemx/cmake_install.cmake	4078a9a43ad28f26
+17	153	7914869845817212	CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj	7e56a9836310e342
+14	154	7914869845792070	CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj	58342d9536204b25
+23	154	7914869845871473	CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj	2d6938960acc32f4
+33	155	7914869845974970	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj	bc9724bed78aad90
+29	162	7914869845943948	CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj	35463897a0f44149
+20	162	7914869845850386	CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj	a8143da38767d1b0
+26	172	7914869845899595	CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj	1fc226eb25c293f1
+172	263	7914869847369206	G474_motor_firmware.elf	8588bdeccb03d93b
