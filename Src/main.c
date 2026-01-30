@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
+#include "dma.h"
 #include "hrtim.h"
 #include "gpio.h"
 
@@ -87,7 +89,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_HRTIM1_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   /* Enable HRTIM's outputs TD1 and TD2 */
   HAL_HRTIM_WaveformOutputStart(&hhrtim1, HRTIM_OUTPUT_TD1 + HRTIM_OUTPUT_TD2);
@@ -99,7 +103,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_Delay(100);
+    /* USER CODE END WHILE */
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
