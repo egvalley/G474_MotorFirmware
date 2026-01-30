@@ -23,7 +23,7 @@
 /* USER CODE BEGIN 0 */
 
 /* Formula below works down to 70.3kHz (with presc ratio = 1) */
-#define TIMD_PERIOD ((uint16_t)(((uint64_t)HRTIM_INPUT_CLOCK * 32) / TIMD_PWM_FREQ))
+#define TIMD_PERIOD (uint16_t)(((uint16_t)(((uint64_t)HRTIM_INPUT_CLOCK * 32) / TIMD_PWM_FREQ)) / 2)
 
 /* Formula below works down to 70.3kHz (with presc ratio = 1) */
 #define MASTER_PERIOD ((uint16_t)(((uint64_t)HRTIM_INPUT_CLOCK * 32) / MASTER_PWM_FREQ))
@@ -103,7 +103,7 @@ void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pTimeBaseCfg.Period = TIMD_PERIOD/2;
+  pTimeBaseCfg.Period = TIMD_PERIOD;
   if (HAL_HRTIM_TimeBaseConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_D, &pTimeBaseCfg) != HAL_OK)
   {
     Error_Handler();
@@ -115,15 +115,16 @@ void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  if (HAL_HRTIM_RollOverModeConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_D, HRTIM_TIM_FEROM_BOTH|HRTIM_TIM_BMROM_BOTH
-                              |HRTIM_TIM_ADROM_BOTH|HRTIM_TIM_OUTROM_BOTH
-                              |HRTIM_TIM_ROM_BOTH) != HAL_OK)
+  if (HAL_HRTIM_RollOverModeConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_D, HRTIM_TIM_FEROM_VALLEY|HRTIM_TIM_BMROM_VALLEY
+                              |HRTIM_TIM_ADROM_VALLEY|HRTIM_TIM_OUTROM_VALLEY
+                              |HRTIM_TIM_ROM_VALLEY) != HAL_OK)
   {
     Error_Handler();
   }
   pTimerCfg.InterruptRequests = HRTIM_TIM_IT_NONE;
   pTimerCfg.DMARequests = HRTIM_TIM_DMA_NONE;
   pTimerCfg.PreloadEnable = HRTIM_PRELOAD_ENABLED;
+  pTimerCfg.RepetitionUpdate = HRTIM_UPDATEONREPETITION_ENABLED;
   pTimerCfg.PushPull = HRTIM_TIMPUSHPULLMODE_DISABLED;
   pTimerCfg.FaultEnable = HRTIM_TIMFAULTENABLE_NONE;
   pTimerCfg.FaultLock = HRTIM_TIMFAULTLOCK_READWRITE;
@@ -131,15 +132,15 @@ void MX_HRTIM1_Init(void)
   pTimerCfg.DelayedProtectionMode = HRTIM_TIMER_D_E_DELAYEDPROTECTION_DISABLED;
   pTimerCfg.UpdateTrigger = HRTIM_TIMUPDATETRIGGER_NONE;
   pTimerCfg.ResetTrigger = HRTIM_TIMRESETTRIGGER_MASTER_PER;
-  pTimerCfg.ResetUpdate = HRTIM_TIMUPDATEONRESET_ENABLED;
+  pTimerCfg.ResetUpdate = HRTIM_TIMUPDATEONRESET_DISABLED;
   if (HAL_HRTIM_WaveformTimerConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_D, &pTimerCfg) != HAL_OK)
   {
     Error_Handler();
   }
   pTimerCfg.PreloadEnable = HRTIM_PRELOAD_DISABLED;
+  pTimerCfg.RepetitionUpdate = HRTIM_UPDATEONREPETITION_DISABLED;
   pTimerCfg.DeadTimeInsertion = HRTIM_TIMDEADTIMEINSERTION_DISABLED;
   pTimerCfg.ResetTrigger = HRTIM_TIMRESETTRIGGER_NONE;
-  pTimerCfg.ResetUpdate = HRTIM_TIMUPDATEONRESET_DISABLED;
   if (HAL_HRTIM_WaveformTimerConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_E, &pTimerCfg) != HAL_OK)
   {
     Error_Handler();
@@ -155,11 +156,11 @@ void MX_HRTIM1_Init(void)
     Error_Handler();
   }
   pDeadTimeCfg.Prescaler = HRTIM_TIMDEADTIME_PRESCALERRATIO_MUL8;
-  pDeadTimeCfg.RisingValue = 50;
+  pDeadTimeCfg.RisingValue = 10;
   pDeadTimeCfg.RisingSign = HRTIM_TIMDEADTIME_RISINGSIGN_POSITIVE;
   pDeadTimeCfg.RisingLock = HRTIM_TIMDEADTIME_RISINGLOCK_WRITE;
   pDeadTimeCfg.RisingSignLock = HRTIM_TIMDEADTIME_RISINGSIGNLOCK_WRITE;
-  pDeadTimeCfg.FallingValue = 50;
+  pDeadTimeCfg.FallingValue = 10;
   pDeadTimeCfg.FallingSign = HRTIM_TIMDEADTIME_FALLINGSIGN_POSITIVE;
   pDeadTimeCfg.FallingLock = HRTIM_TIMDEADTIME_FALLINGLOCK_WRITE;
   pDeadTimeCfg.FallingSignLock = HRTIM_TIMDEADTIME_FALLINGSIGNLOCK_WRITE;
@@ -168,7 +169,7 @@ void MX_HRTIM1_Init(void)
     Error_Handler();
   }
   pOutputCfg.Polarity = HRTIM_OUTPUTPOLARITY_HIGH;
-  pOutputCfg.SetSource = HRTIM_OUTPUTSET_TIMPER;
+  pOutputCfg.SetSource = HRTIM_OUTPUTSET_NONE;
   pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_TIMCMP1;
   pOutputCfg.IdleMode = HRTIM_OUTPUTIDLEMODE_NONE;
   pOutputCfg.IdleLevel = HRTIM_OUTPUTIDLELEVEL_INACTIVE;
@@ -179,7 +180,6 @@ void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pOutputCfg.SetSource = HRTIM_OUTPUTSET_NONE;
   pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_NONE;
   if (HAL_HRTIM_WaveformOutputConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_E, HRTIM_OUTPUT_TE1, &pOutputCfg) != HAL_OK)
   {
@@ -189,12 +189,10 @@ void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_MASTERCMP1;
   if (HAL_HRTIM_WaveformOutputConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_D, HRTIM_OUTPUT_TD2, &pOutputCfg) != HAL_OK)
   {
     Error_Handler();
   }
-  pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_NONE;
   if (HAL_HRTIM_WaveformOutputConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_E, HRTIM_OUTPUT_TE2, &pOutputCfg) != HAL_OK)
   {
     Error_Handler();
