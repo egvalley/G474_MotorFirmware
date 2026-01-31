@@ -19,7 +19,10 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "adc.h"
+#include "cordic.h"
+#include "crc.h"
 #include "dma.h"
+#include "fmac.h"
 #include "hrtim.h"
 #include "gpio.h"
 
@@ -92,11 +95,15 @@ int main(void)
   MX_DMA_Init();
   MX_HRTIM1_Init();
   MX_ADC1_Init();
+  MX_ADC3_Init();
+  MX_CORDIC_Init();
+  MX_CRC_Init();
+  MX_FMAC_Init();
   /* USER CODE BEGIN 2 */
   /* Enable HRTIM's outputs TD1 and TD2 */
-  HAL_HRTIM_WaveformOutputStart(&hhrtim1, HRTIM_OUTPUT_TD1 + HRTIM_OUTPUT_TD2);
+  HAL_HRTIM_WaveformOutputStart(&hhrtim1, HRTIM_OUTPUT_TD1 + HRTIM_OUTPUT_TD2 + HRTIM_OUTPUT_TE1 + HRTIM_OUTPUT_TE2 + HRTIM_OUTPUT_TF1 + HRTIM_OUTPUT_TF2);
   /* Start HRTIM's Master TIMER and TIMER D*/
-  HAL_HRTIM_WaveformCounterStart(&hhrtim1, HRTIM_TIMERID_MASTER + HRTIM_TIMERID_TIMER_D);
+  HAL_HRTIM_WaveformCounterStart(&hhrtim1, HRTIM_TIMERID_MASTER + HRTIM_TIMERID_TIMER_D + HRTIM_TIMERID_TIMER_E + HRTIM_TIMERID_TIMER_F);
   /* USER CODE END 2 */
 
   /* Infinite loop */

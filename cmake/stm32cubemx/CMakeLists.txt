@@ -22,7 +22,10 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/main.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/gpio.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/adc.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/cordic.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/crc.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/dma.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/fmac.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/hrtim.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/stm32g4xx_it.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/stm32g4xx_hal_msp.c
@@ -50,6 +53,10 @@ set(STM32_Drivers_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cordic.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c
 )
 
