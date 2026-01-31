@@ -26,6 +26,7 @@
 #include "fmac.h"
 #include "hrtim.h"
 #include "rng.h"
+#include "spi.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -103,6 +104,8 @@ int main(void)
   MX_CRC_Init();
   MX_FMAC_Init();
   MX_RNG_Init();
+  MX_SPI2_Init();
+  MX_SPI3_Init();
   /* USER CODE BEGIN 2 */
   /* Enable HRTIM's outputs TD1 and TD2 */
   HAL_HRTIM_WaveformOutputStart(&hhrtim1, HRTIM_OUTPUT_TD1 + HRTIM_OUTPUT_TD2 + HRTIM_OUTPUT_TE1 + HRTIM_OUTPUT_TE2 + HRTIM_OUTPUT_TF1 + HRTIM_OUTPUT_TF2);

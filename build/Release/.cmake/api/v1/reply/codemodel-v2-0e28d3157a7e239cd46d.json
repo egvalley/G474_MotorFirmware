@@ -62,21 +62,21 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "FreeRTOS::@768a070a0fe75716b479",
-					"jsonFile" : "target-FreeRTOS-Release-e05f789b170f0c54ce2c.json",
+					"jsonFile" : "target-FreeRTOS-Release-5fb81d0018920ace53ba.json",
 					"name" : "FreeRTOS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "G474_motor_firmware::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-G474_motor_firmware-Release-f3f2714408cbdeba0e45.json",
+					"jsonFile" : "target-G474_motor_firmware-Release-d112c4158635f194544a.json",
 					"name" : "G474_motor_firmware",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Release-ecd0f66a4d70c092ba28.json",
+					"jsonFile" : "target-STM32_Drivers-Release-2d0cd3862fa8c0272c58.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}
