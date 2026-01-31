@@ -58,7 +58,7 @@ void Error_Handler(void);
 
 /* Private defines -----------------------------------------------------------*/
 #define TIMD_PWM_FREQ 54400
-#define TIMD_DUTY_CYCLE 0.1
+#define TIMD_DUTY_CYCLE 0.9
 #define HRTIM_INPUT_CLOCK 170000000
 #define MASTER_DUTY_CYCLE 0.5
 #define MASTER_PWM_FREQ 54400

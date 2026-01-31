@@ -960,6 +960,31 @@ Discarded input sections
                 0x00000000       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj
  .rodata.TimerIdxToTimerId
                 0x00000000       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj
+ .text          0x00000000        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .data          0x00000000        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .bss           0x00000000        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_MspInit
+                0x00000000        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_MspDeInit
+                0x00000000        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_DeInit
+                0x00000000       0x32 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_GenerateRandomNumber
+                0x00000000       0x68 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_GenerateRandomNumber_IT
+                0x00000000       0x32 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_ReadLastRandomNumber
+                0x00000000        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_ReadyDataCallback
+                0x00000000        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_ErrorCallback
+                0x00000000        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_IRQHandler
+                0x00000000       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_GetState
+                0x00000000        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+ .text.HAL_RNG_GetError
+                0x00000000        0x4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
  .text          0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
@@ -994,6 +1019,11 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
  .text.HAL_HRTIM_MspDeInit
                 0x00000000       0x4c CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+ .text          0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
+ .data          0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
+ .text.HAL_RNG_MspDeInit
+                0x00000000       0x1c CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
  .text          0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
  .data          0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
  .bss           0x00000000        0x0 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
@@ -1478,6 +1508,7 @@ LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_
 LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c.obj
 LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c.obj
 LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj
+LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
@@ -1486,6 +1517,7 @@ LOAD CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+LOAD CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj
 LOAD CMakeFiles/G474_motor_firmware.dir/Src/sysmem.c.obj
@@ -1514,7 +1546,7 @@ LOAD C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.
                 0x08000000                g_pfnVectors
                 0x080001d8                        . = ALIGN (0x4)
 
-.text           0x080001d8     0x3a40
+.text           0x080001d8     0x3af8
                 0x080001d8                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001d8       0x40 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -1717,288 +1749,296 @@ LOAD C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.
  .text.HAL_HRTIM_WaveformCountStart
                 0x08002f5a       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj
                 0x08002f5a                HAL_HRTIM_WaveformCountStart
+ .text.HAL_RNG_Init
+                0x08002f82       0x3c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
+                0x08002f82                HAL_RNG_Init
  .text.SystemClock_Config
-                0x08002f82       0x68 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
-                0x08002f82                SystemClock_Config
- *fill*         0x08002fea        0x2 
+                0x08002fbe       0x6e CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
+                0x08002fbe                SystemClock_Config
  .text.startup.main
-                0x08002fec       0x44 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
-                0x08002fec                main
+                0x0800302c       0x48 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
+                0x0800302c                main
  .text.Error_Handler
-                0x08003030        0x4 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
-                0x08003030                Error_Handler
+                0x08003074        0x4 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
+                0x08003074                Error_Handler
  .text.MX_GPIO_Init
-                0x08003034       0xdc CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj
-                0x08003034                MX_GPIO_Init
+                0x08003078       0xdc CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj
+                0x08003078                MX_GPIO_Init
  .text.MX_ADC1_Init
-                0x08003110      0x114 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
-                0x08003110                MX_ADC1_Init
+                0x08003154      0x114 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
+                0x08003154                MX_ADC1_Init
  .text.MX_ADC3_Init
-                0x08003224      0x118 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
-                0x08003224                MX_ADC3_Init
+                0x08003268      0x118 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
+                0x08003268                MX_ADC3_Init
  .text.HAL_ADC_MspInit
-                0x0800333c      0x1cc CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
-                0x0800333c                HAL_ADC_MspInit
+                0x08003380      0x1cc CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
+                0x08003380                HAL_ADC_MspInit
  .text.MX_CORDIC_Init
-                0x08003508       0x24 CMakeFiles/G474_motor_firmware.dir/Src/cordic.c.obj
-                0x08003508                MX_CORDIC_Init
+                0x0800354c       0x24 CMakeFiles/G474_motor_firmware.dir/Src/cordic.c.obj
+                0x0800354c                MX_CORDIC_Init
  .text.HAL_CORDIC_MspInit
-                0x0800352c       0x2c CMakeFiles/G474_motor_firmware.dir/Src/cordic.c.obj
-                0x0800352c                HAL_CORDIC_MspInit
+                0x08003570       0x2c CMakeFiles/G474_motor_firmware.dir/Src/cordic.c.obj
+                0x08003570                HAL_CORDIC_MspInit
  .text.MX_CRC_Init
-                0x08003558       0x30 CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
-                0x08003558                MX_CRC_Init
+                0x0800359c       0x30 CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
+                0x0800359c                MX_CRC_Init
  .text.HAL_CRC_MspInit
-                0x08003588       0x28 CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
-                0x08003588                HAL_CRC_MspInit
+                0x080035cc       0x28 CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
+                0x080035cc                HAL_CRC_MspInit
  .text.MX_DMA_Init
-                0x080035b0       0x54 CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj
-                0x080035b0                MX_DMA_Init
+                0x080035f4       0x54 CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj
+                0x080035f4                MX_DMA_Init
  .text.MX_FMAC_Init
-                0x08003604       0x24 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
-                0x08003604                MX_FMAC_Init
+                0x08003648       0x24 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
+                0x08003648                MX_FMAC_Init
  .text.HAL_FMAC_MspInit
-                0x08003628       0x28 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
-                0x08003628                HAL_FMAC_MspInit
+                0x0800366c       0x28 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
+                0x0800366c                HAL_FMAC_MspInit
  .text.HAL_HRTIM_MspInit
-                0x08003650       0x60 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
-                0x08003650                HAL_HRTIM_MspInit
+                0x08003694       0x60 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+                0x08003694                HAL_HRTIM_MspInit
  .text.HAL_HRTIM_MspPostInit
-                0x080036b0       0x98 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
-                0x080036b0                HAL_HRTIM_MspPostInit
+                0x080036f4       0x98 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+                0x080036f4                HAL_HRTIM_MspPostInit
  .text.MX_HRTIM1_Init
-                0x08003748      0x38c CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
-                0x08003748                MX_HRTIM1_Init
+                0x0800378c      0x38c CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+                0x0800378c                MX_HRTIM1_Init
+ .text.MX_RNG_Init
+                0x08003b18       0x28 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
+                0x08003b18                MX_RNG_Init
+ .text.HAL_RNG_MspInit
+                0x08003b40       0x4c CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
+                0x08003b40                HAL_RNG_MspInit
  .text.NMI_Handler
-                0x08003ad4        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ad4                NMI_Handler
+                0x08003b8c        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b8c                NMI_Handler
  .text.HardFault_Handler
-                0x08003ad6        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ad6                HardFault_Handler
+                0x08003b8e        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b8e                HardFault_Handler
  .text.MemManage_Handler
-                0x08003ad8        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ad8                MemManage_Handler
+                0x08003b90        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b90                MemManage_Handler
  .text.BusFault_Handler
-                0x08003ada        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ada                BusFault_Handler
+                0x08003b92        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b92                BusFault_Handler
  .text.UsageFault_Handler
-                0x08003adc        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003adc                UsageFault_Handler
+                0x08003b94        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b94                UsageFault_Handler
  .text.SVC_Handler
-                0x08003ade        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ade                SVC_Handler
+                0x08003b96        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b96                SVC_Handler
  .text.DebugMon_Handler
-                0x08003ae0        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ae0                DebugMon_Handler
+                0x08003b98        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b98                DebugMon_Handler
  .text.PendSV_Handler
-                0x08003ae2        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ae2                PendSV_Handler
+                0x08003b9a        0x2 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b9a                PendSV_Handler
  .text.SysTick_Handler
-                0x08003ae4        0x4 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ae4                SysTick_Handler
+                0x08003b9c        0x4 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003b9c                SysTick_Handler
  .text.DMA1_Channel1_IRQHandler
-                0x08003ae8        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003ae8                DMA1_Channel1_IRQHandler
+                0x08003ba0        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003ba0                DMA1_Channel1_IRQHandler
  .text.DMA1_Channel2_IRQHandler
-                0x08003af4        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003af4                DMA1_Channel2_IRQHandler
+                0x08003bac        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003bac                DMA1_Channel2_IRQHandler
  .text.ADC1_2_IRQHandler
-                0x08003b00        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003b00                ADC1_2_IRQHandler
+                0x08003bb8        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003bb8                ADC1_2_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x08003b0c        0x8 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003b0c                EXTI15_10_IRQHandler
+                0x08003bc4        0x8 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003bc4                EXTI15_10_IRQHandler
  .text.ADC3_IRQHandler
-                0x08003b14        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
-                0x08003b14                ADC3_IRQHandler
+                0x08003bcc        0xc CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x08003bcc                ADC3_IRQHandler
  .text.HAL_MspInit
-                0x08003b20       0x34 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj
-                0x08003b20                HAL_MspInit
+                0x08003bd8       0x34 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj
+                0x08003bd8                HAL_MspInit
  .text.Reset_Handler
-                0x08003b54       0x50 CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj
-                0x08003b54                Reset_Handler
+                0x08003c0c       0x50 CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj
+                0x08003c0c                Reset_Handler
  .text.Default_Handler
-                0x08003ba4        0x2 CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj
-                0x08003ba4                RTC_Alarm_IRQHandler
-                0x08003ba4                EXTI2_IRQHandler
-                0x08003ba4                TIM8_TRG_COM_IRQHandler
-                0x08003ba4                TIM8_CC_IRQHandler
-                0x08003ba4                HRTIM1_Master_IRQHandler
-                0x08003ba4                SPI4_IRQHandler
-                0x08003ba4                FDCAN3_IT0_IRQHandler
-                0x08003ba4                TIM1_CC_IRQHandler
-                0x08003ba4                HRTIM1_FLT_IRQHandler
-                0x08003ba4                HRTIM1_TIMF_IRQHandler
-                0x08003ba4                USB_HP_IRQHandler
-                0x08003ba4                CORDIC_IRQHandler
-                0x08003ba4                HRTIM1_TIMD_IRQHandler
-                0x08003ba4                DMA2_Channel8_IRQHandler
-                0x08003ba4                EXTI3_IRQHandler
-                0x08003ba4                I2C3_ER_IRQHandler
-                0x08003ba4                EXTI0_IRQHandler
-                0x08003ba4                I2C2_EV_IRQHandler
-                0x08003ba4                FPU_IRQHandler
-                0x08003ba4                FDCAN1_IT1_IRQHandler
-                0x08003ba4                TIM1_UP_TIM16_IRQHandler
-                0x08003ba4                HRTIM1_TIME_IRQHandler
-                0x08003ba4                SPI1_IRQHandler
-                0x08003ba4                TIM6_DAC_IRQHandler
-                0x08003ba4                HRTIM1_TIMC_IRQHandler
-                0x08003ba4                TIM8_UP_IRQHandler
-                0x08003ba4                DMA2_Channel2_IRQHandler
-                0x08003ba4                DMA1_Channel4_IRQHandler
-                0x08003ba4                TIM20_TRG_COM_IRQHandler
-                0x08003ba4                USART3_IRQHandler
-                0x08003ba4                DMA1_Channel7_IRQHandler
-                0x08003ba4                UART5_IRQHandler
-                0x08003ba4                TIM4_IRQHandler
-                0x08003ba4                DMA2_Channel1_IRQHandler
-                0x08003ba4                QUADSPI_IRQHandler
-                0x08003ba4                I2C1_EV_IRQHandler
-                0x08003ba4                DMA1_Channel6_IRQHandler
-                0x08003ba4                UART4_IRQHandler
-                0x08003ba4                DMA2_Channel4_IRQHandler
-                0x08003ba4                TIM3_IRQHandler
-                0x08003ba4                RCC_IRQHandler
-                0x08003ba4                TIM20_UP_IRQHandler
-                0x08003ba4                Default_Handler
-                0x08003ba4                DMA2_Channel7_IRQHandler
-                0x08003ba4                RTC_TAMP_LSECSS_IRQHandler
-                0x08003ba4                FMAC_IRQHandler
-                0x08003ba4                DMA1_Channel8_IRQHandler
-                0x08003ba4                HRTIM1_TIMA_IRQHandler
-                0x08003ba4                TIM7_DAC_IRQHandler
-                0x08003ba4                FDCAN3_IT1_IRQHandler
-                0x08003ba4                TIM5_IRQHandler
-                0x08003ba4                UCPD1_IRQHandler
-                0x08003ba4                I2C3_EV_IRQHandler
-                0x08003ba4                EXTI9_5_IRQHandler
-                0x08003ba4                RTC_WKUP_IRQHandler
-                0x08003ba4                PVD_PVM_IRQHandler
-                0x08003ba4                SPI2_IRQHandler
-                0x08003ba4                ADC5_IRQHandler
-                0x08003ba4                DMA2_Channel5_IRQHandler
-                0x08003ba4                CRS_IRQHandler
-                0x08003ba4                DMA1_Channel5_IRQHandler
-                0x08003ba4                USB_LP_IRQHandler
-                0x08003ba4                EXTI4_IRQHandler
-                0x08003ba4                RNG_IRQHandler
-                0x08003ba4                HRTIM1_TIMB_IRQHandler
-                0x08003ba4                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08003ba4                FDCAN2_IT1_IRQHandler
-                0x08003ba4                DMA1_Channel3_IRQHandler
-                0x08003ba4                ADC4_IRQHandler
-                0x08003ba4                WWDG_IRQHandler
-                0x08003ba4                I2C4_EV_IRQHandler
-                0x08003ba4                FDCAN2_IT0_IRQHandler
-                0x08003ba4                LPUART1_IRQHandler
-                0x08003ba4                DMA2_Channel6_IRQHandler
-                0x08003ba4                FDCAN1_IT0_IRQHandler
-                0x08003ba4                TIM2_IRQHandler
-                0x08003ba4                COMP7_IRQHandler
-                0x08003ba4                COMP1_2_3_IRQHandler
-                0x08003ba4                EXTI1_IRQHandler
-                0x08003ba4                USART2_IRQHandler
-                0x08003ba4                COMP4_5_6_IRQHandler
-                0x08003ba4                TIM20_BRK_IRQHandler
-                0x08003ba4                I2C2_ER_IRQHandler
-                0x08003ba4                TIM8_BRK_IRQHandler
-                0x08003ba4                FLASH_IRQHandler
-                0x08003ba4                TIM20_CC_IRQHandler
-                0x08003ba4                USART1_IRQHandler
-                0x08003ba4                SPI3_IRQHandler
-                0x08003ba4                I2C1_ER_IRQHandler
-                0x08003ba4                FMC_IRQHandler
-                0x08003ba4                LPTIM1_IRQHandler
-                0x08003ba4                DMAMUX_OVR_IRQHandler
-                0x08003ba4                I2C4_ER_IRQHandler
-                0x08003ba4                USBWakeUp_IRQHandler
-                0x08003ba4                SAI1_IRQHandler
-                0x08003ba4                DMA2_Channel3_IRQHandler
-                0x08003ba4                TIM1_BRK_TIM15_IRQHandler
- .text.memset   0x08003ba6       0x10 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
-                0x08003ba6                memset
- *fill*         0x08003bb6        0x2 
+                0x08003c5c        0x2 CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj
+                0x08003c5c                RTC_Alarm_IRQHandler
+                0x08003c5c                EXTI2_IRQHandler
+                0x08003c5c                TIM8_TRG_COM_IRQHandler
+                0x08003c5c                TIM8_CC_IRQHandler
+                0x08003c5c                HRTIM1_Master_IRQHandler
+                0x08003c5c                SPI4_IRQHandler
+                0x08003c5c                FDCAN3_IT0_IRQHandler
+                0x08003c5c                TIM1_CC_IRQHandler
+                0x08003c5c                HRTIM1_FLT_IRQHandler
+                0x08003c5c                HRTIM1_TIMF_IRQHandler
+                0x08003c5c                USB_HP_IRQHandler
+                0x08003c5c                CORDIC_IRQHandler
+                0x08003c5c                HRTIM1_TIMD_IRQHandler
+                0x08003c5c                DMA2_Channel8_IRQHandler
+                0x08003c5c                EXTI3_IRQHandler
+                0x08003c5c                I2C3_ER_IRQHandler
+                0x08003c5c                EXTI0_IRQHandler
+                0x08003c5c                I2C2_EV_IRQHandler
+                0x08003c5c                FPU_IRQHandler
+                0x08003c5c                FDCAN1_IT1_IRQHandler
+                0x08003c5c                TIM1_UP_TIM16_IRQHandler
+                0x08003c5c                HRTIM1_TIME_IRQHandler
+                0x08003c5c                SPI1_IRQHandler
+                0x08003c5c                TIM6_DAC_IRQHandler
+                0x08003c5c                HRTIM1_TIMC_IRQHandler
+                0x08003c5c                TIM8_UP_IRQHandler
+                0x08003c5c                DMA2_Channel2_IRQHandler
+                0x08003c5c                DMA1_Channel4_IRQHandler
+                0x08003c5c                TIM20_TRG_COM_IRQHandler
+                0x08003c5c                USART3_IRQHandler
+                0x08003c5c                DMA1_Channel7_IRQHandler
+                0x08003c5c                UART5_IRQHandler
+                0x08003c5c                TIM4_IRQHandler
+                0x08003c5c                DMA2_Channel1_IRQHandler
+                0x08003c5c                QUADSPI_IRQHandler
+                0x08003c5c                I2C1_EV_IRQHandler
+                0x08003c5c                DMA1_Channel6_IRQHandler
+                0x08003c5c                UART4_IRQHandler
+                0x08003c5c                DMA2_Channel4_IRQHandler
+                0x08003c5c                TIM3_IRQHandler
+                0x08003c5c                RCC_IRQHandler
+                0x08003c5c                TIM20_UP_IRQHandler
+                0x08003c5c                Default_Handler
+                0x08003c5c                DMA2_Channel7_IRQHandler
+                0x08003c5c                RTC_TAMP_LSECSS_IRQHandler
+                0x08003c5c                FMAC_IRQHandler
+                0x08003c5c                DMA1_Channel8_IRQHandler
+                0x08003c5c                HRTIM1_TIMA_IRQHandler
+                0x08003c5c                TIM7_DAC_IRQHandler
+                0x08003c5c                FDCAN3_IT1_IRQHandler
+                0x08003c5c                TIM5_IRQHandler
+                0x08003c5c                UCPD1_IRQHandler
+                0x08003c5c                I2C3_EV_IRQHandler
+                0x08003c5c                EXTI9_5_IRQHandler
+                0x08003c5c                RTC_WKUP_IRQHandler
+                0x08003c5c                PVD_PVM_IRQHandler
+                0x08003c5c                SPI2_IRQHandler
+                0x08003c5c                ADC5_IRQHandler
+                0x08003c5c                DMA2_Channel5_IRQHandler
+                0x08003c5c                CRS_IRQHandler
+                0x08003c5c                DMA1_Channel5_IRQHandler
+                0x08003c5c                USB_LP_IRQHandler
+                0x08003c5c                EXTI4_IRQHandler
+                0x08003c5c                RNG_IRQHandler
+                0x08003c5c                HRTIM1_TIMB_IRQHandler
+                0x08003c5c                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08003c5c                FDCAN2_IT1_IRQHandler
+                0x08003c5c                DMA1_Channel3_IRQHandler
+                0x08003c5c                ADC4_IRQHandler
+                0x08003c5c                WWDG_IRQHandler
+                0x08003c5c                I2C4_EV_IRQHandler
+                0x08003c5c                FDCAN2_IT0_IRQHandler
+                0x08003c5c                LPUART1_IRQHandler
+                0x08003c5c                DMA2_Channel6_IRQHandler
+                0x08003c5c                FDCAN1_IT0_IRQHandler
+                0x08003c5c                TIM2_IRQHandler
+                0x08003c5c                COMP7_IRQHandler
+                0x08003c5c                COMP1_2_3_IRQHandler
+                0x08003c5c                EXTI1_IRQHandler
+                0x08003c5c                USART2_IRQHandler
+                0x08003c5c                COMP4_5_6_IRQHandler
+                0x08003c5c                TIM20_BRK_IRQHandler
+                0x08003c5c                I2C2_ER_IRQHandler
+                0x08003c5c                TIM8_BRK_IRQHandler
+                0x08003c5c                FLASH_IRQHandler
+                0x08003c5c                TIM20_CC_IRQHandler
+                0x08003c5c                USART1_IRQHandler
+                0x08003c5c                SPI3_IRQHandler
+                0x08003c5c                I2C1_ER_IRQHandler
+                0x08003c5c                FMC_IRQHandler
+                0x08003c5c                LPTIM1_IRQHandler
+                0x08003c5c                DMAMUX_OVR_IRQHandler
+                0x08003c5c                I2C4_ER_IRQHandler
+                0x08003c5c                USBWakeUp_IRQHandler
+                0x08003c5c                SAI1_IRQHandler
+                0x08003c5c                DMA2_Channel3_IRQHandler
+                0x08003c5c                TIM1_BRK_TIM15_IRQHandler
+ .text.memset   0x08003c5e       0x10 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x08003c5e                memset
+ *fill*         0x08003c6e        0x2 
  .text.__libc_init_array
-                0x08003bb8       0x48 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
-                0x08003bb8                __libc_init_array
+                0x08003c70       0x48 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x08003c70                __libc_init_array
  *(.glue_7)
- .glue_7        0x08003c00        0x0 linker stubs
+ .glue_7        0x08003cb8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003c00        0x0 linker stubs
+ .glue_7t       0x08003cb8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003c00        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08003cb8        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08003c00        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08003c00                _init
- .init          0x08003c04        0x8 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08003cb8        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08003cb8                _init
+ .init          0x08003cbc        0x8 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08003c0c        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08003c0c                _fini
- .fini          0x08003c10        0x8 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08003c18                        . = ALIGN (0x4)
-                0x08003c18                        _etext = .
+ .fini          0x08003cc4        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08003cc4                _fini
+ .fini          0x08003cc8        0x8 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08003cd0                        . = ALIGN (0x4)
+                0x08003cd0                        _etext = .
 
-.vfp11_veneer   0x08003c18        0x0
- .vfp11_veneer  0x08003c18        0x0 linker stubs
+.vfp11_veneer   0x08003cd0        0x0
+ .vfp11_veneer  0x08003cd0        0x0 linker stubs
 
-.v4_bx          0x08003c18        0x0
- .v4_bx         0x08003c18        0x0 linker stubs
+.v4_bx          0x08003cd0        0x0
+ .v4_bx         0x08003cd0        0x0 linker stubs
 
-.iplt           0x08003c18        0x0
- .iplt          0x08003c18        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08003cd0        0x0
+ .iplt          0x08003cd0        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08003c18       0x10
-                0x08003c18                        . = ALIGN (0x4)
+.rodata         0x08003cd0       0x10
+                0x08003cd0                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08003c18       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32g4xx.c.obj
-                0x08003c18                AHBPrescTable
-                0x08003c28                        . = ALIGN (0x4)
+                0x08003cd0       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32g4xx.c.obj
+                0x08003cd0                AHBPrescTable
+                0x08003ce0                        . = ALIGN (0x4)
 
-.ARM.extab      0x08003c28        0x0
-                0x08003c28                        . = ALIGN (0x4)
+.ARM.extab      0x08003ce0        0x0
+                0x08003ce0                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08003c28                        . = ALIGN (0x4)
+                0x08003ce0                        . = ALIGN (0x4)
 
-.ARM            0x08003c28        0x0
-                0x08003c28                        . = ALIGN (0x4)
-                0x08003c28                        __exidx_start = .
+.ARM            0x08003ce0        0x0
+                0x08003ce0                        . = ALIGN (0x4)
+                0x08003ce0                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08003c28                        __exidx_end = .
-                0x08003c28                        . = ALIGN (0x4)
+                0x08003ce0                        __exidx_end = .
+                0x08003ce0                        . = ALIGN (0x4)
 
-.preinit_array  0x08003c28        0x0
-                0x08003c28                        . = ALIGN (0x4)
-                0x08003c28                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08003ce0        0x0
+                0x08003ce0                        . = ALIGN (0x4)
+                0x08003ce0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08003c28                        PROVIDE (__preinit_array_end = .)
-                0x08003c28                        . = ALIGN (0x4)
+                0x08003ce0                        PROVIDE (__preinit_array_end = .)
+                0x08003ce0                        . = ALIGN (0x4)
 
-.init_array     0x08003c28        0x4
-                0x08003c28                        . = ALIGN (0x4)
-                0x08003c28                        PROVIDE (__init_array_start = .)
+.init_array     0x08003ce0        0x4
+                0x08003ce0                        . = ALIGN (0x4)
+                0x08003ce0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08003c28        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08003c2c                        PROVIDE (__init_array_end = .)
-                0x08003c2c                        . = ALIGN (0x4)
+ .init_array    0x08003ce0        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08003ce4                        PROVIDE (__init_array_end = .)
+                0x08003ce4                        . = ALIGN (0x4)
 
-.fini_array     0x08003c2c        0x4
-                0x08003c2c                        . = ALIGN (0x4)
+.fini_array     0x08003ce4        0x4
+                0x08003ce4                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003c2c        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08003ce4        0x4 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08003c30                        . = ALIGN (0x4)
-                0x08003c30                        _sidata = LOADADDR (.data)
+                0x08003ce8                        . = ALIGN (0x4)
+                0x08003ce8                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08003c30        0x0
- .rel.iplt      0x08003c30        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08003ce8        0x0
+ .rel.iplt      0x08003ce8        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000        0xc load address 0x08003c30
+.data           0x20000000        0xc load address 0x08003ce8
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2016,10 +2056,10 @@ LOAD C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.
  *(.RamFunc*)
                 0x2000000c                        . = ALIGN (0x4)
 
-.igot.plt       0x2000000c        0x0 load address 0x08003c3c
+.igot.plt       0x2000000c        0x0 load address 0x08003cf4
  .igot.plt      0x2000000c        0x0 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.tdata          0x2000000c        0x0 load address 0x08003c3c
+.tdata          0x2000000c        0x0 load address 0x08003cf4
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        _edata = .
@@ -2036,7 +2076,7 @@ LOAD C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x2000000c        0x0 load address 0x08003c3c
+.tbss           0x2000000c        0x0 load address 0x08003cf4
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -2053,7 +2093,7 @@ LOAD C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x2000000c      0x338 load address 0x08003c3c
+.bss            0x2000000c      0x34c load address 0x08003cf4
  *(.bss)
  .bss           0x2000000c       0x1c C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
@@ -2077,26 +2117,27 @@ LOAD C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.
                 0x20000210                hfmac
  .bss.hhrtim1   0x20000248       0xfc CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
                 0x20000248                hhrtim1
+ .bss.hrng      0x20000344       0x14 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
+                0x20000344                hrng
  *(COMMON)
-                0x20000344                        . = ALIGN (0x4)
-                0x20000344                        _ebss = .
-                0x20000344                        __bss_end__ = _ebss
+                0x20000358                        . = ALIGN (0x4)
+                0x20000358                        _ebss = .
+                0x20000358                        __bss_end__ = _ebss
                 [!provide]                        PROVIDE (__bss_end = .)
                 [!provide]                        PROVIDE (__non_tls_bss_start = ADDR (.bss))
                 [!provide]                        PROVIDE (__bss_start = __tbss_start)
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20000344      0x604 load address 0x08003c3c
-                0x20000348                        . = ALIGN (0x8)
- *fill*         0x20000344        0x4 
+                0x20000358      0x600 load address 0x08003cf4
+                0x20000358                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x20000348                        PROVIDE (_end = .)
-                0x20000548                        . = (. + _Min_Heap_Size)
- *fill*         0x20000348      0x200 
-                0x20000948                        . = (. + _Min_Stack_Size)
- *fill*         0x20000548      0x400 
-                0x20000948                        . = ALIGN (0x8)
+                0x20000358                        PROVIDE (_end = .)
+                0x20000558                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000358      0x200 
+                0x20000958                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000558      0x400 
+                0x20000958                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a:*(*)
@@ -2142,33 +2183,37 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000032e       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj
  .ARM.attributes
-                0x00000362       0x34 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
+                0x00000362       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
  .ARM.attributes
-                0x00000396       0x34 CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj
+                0x00000396       0x34 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
  .ARM.attributes
-                0x000003ca       0x34 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
+                0x000003ca       0x34 CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj
  .ARM.attributes
-                0x000003fe       0x34 CMakeFiles/G474_motor_firmware.dir/Src/cordic.c.obj
+                0x000003fe       0x34 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
  .ARM.attributes
-                0x00000432       0x34 CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
+                0x00000432       0x34 CMakeFiles/G474_motor_firmware.dir/Src/cordic.c.obj
  .ARM.attributes
-                0x00000466       0x34 CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj
+                0x00000466       0x34 CMakeFiles/G474_motor_firmware.dir/Src/crc.c.obj
  .ARM.attributes
-                0x0000049a       0x34 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
+                0x0000049a       0x34 CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj
  .ARM.attributes
-                0x000004ce       0x34 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+                0x000004ce       0x34 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
  .ARM.attributes
-                0x00000502       0x34 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
+                0x00000502       0x34 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
  .ARM.attributes
-                0x00000536       0x34 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj
+                0x00000536       0x34 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
  .ARM.attributes
-                0x0000056a       0x21 CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj
+                0x0000056a       0x34 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
  .ARM.attributes
-                0x0000058b       0x34 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x0000059e       0x34 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj
  .ARM.attributes
-                0x000005bf       0x34 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x000005d2       0x21 CMakeFiles/G474_motor_firmware.dir/startup_stm32g474xx.s.obj
  .ARM.attributes
-                0x000005f3       0x22 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x000005f3       0x34 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000627       0x34 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x0000065b       0x22 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32g4xx.c.obj
@@ -2187,6 +2232,7 @@ LOAD linker stubs
  .comment       0x00000043       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c.obj
  .comment       0x00000043       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c.obj
  .comment       0x00000043       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c.obj
+ .comment       0x00000043       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/main.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/gpio.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/adc.c.obj
@@ -2195,6 +2241,7 @@ LOAD linker stubs
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/dma.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/fmac.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/hrtim.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/rng.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_it.c.obj
  .comment       0x00000043       0x44 CMakeFiles/G474_motor_firmware.dir/Src/stm32g4xx_hal_msp.c.obj
  .comment       0x00000043       0x44 C:/Users/SUN/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
